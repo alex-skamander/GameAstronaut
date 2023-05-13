@@ -1,0 +1,25 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js": "^0.1.0",
+    "phaser": "^3.60.0",
+    "phaser3-rex-plugins": "^1.60.0"
+  },
+  "staticFiles": {
+    "staticPath": [
+      "assets"
+    ]
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  }
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: Antipasto, serif;
+    background: url(https://i.ibb.co/WDQG1yX/image.png) top center;
+    position: relative;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    margin: 1% 6%;
+}
+
+a {
+    text-decoration: none;
+}
+.logo > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    word-spacing: 100vw;
+    font-weight: bold;
+}
+.circle {
+    fill: whitesmoke;
+}
+
+.planet1 {
+    position: fixed;
+    width: 258px;
+    height: 125px;
+    transform: rotate(-30deg);
+    top: 20%;
+    filter: brightness(80%);
+}
+.planet2:hover, .planet3:hover {
+    filter: brightness(100%);
+    cursor: pointer;
+}
+.planet4:hover, .planet5:hover {
+    filter: brightness(135%);
+    cursor: pointer;
+}
+.planet1:hover, .planet6:hover, .planet7:hover {
+    filter: brightness(120%);
+    cursor: pointer;
+}
+.planet2 {
+    position: fixed;
+    width: 200px;
+    height: 185px;
+    top: 5%;
+    left: 40%;
+    filter: brightness(70%);
+}
+.planet3 {
+    position: fixed;
+    width: 230px;
+    height: 210px;
+    top: 33%;
+    left: 27%;
+    filter: brightness(70%);
+}
+.planet4 {
+    position: fixed;
+    width: 350px;
+    height: 186px;
+    transform: rotate(15deg);
+    top: 65%;
+    left: 8%;
+}
+.planet5 {
+    position: fixed;
+    width: 250px;
+    height: 230px;
+    top: 70%;
+    left: 43%;
+}
+.planet6 {
+    position: fixed;
+    width: 300px;
+    height: 216px;
+    transform: rotate(10deg);
+    top: 60%;
+    right: 17%;
+    filter: brightness(90%);
+}
+.planet7 {
+    position: fixed;
+    width: 280px;
+    height: 267px;
+    transform: rotate(-20deg);
+    top: 30%;
+    right: 2%;
+    filter: brightness(80%);
+}

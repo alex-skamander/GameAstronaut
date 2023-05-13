@@ -1,0 +1,60 @@
+{
+    "frames": [
+        {
+            "filename": "astro2",
+            "frame": {
+                "w": 40,
+                "h": 40,
+                "x": 2,
+                "y": 2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "astro3",
+            "frame": {
+                "w": 40,
+                "h": 40,
+                "x": 44,
+                "y": 2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "astro1",
+            "frame": {
+                "w": 40,
+                "h": 40,
+                "x": 2,
+                "y": 44
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "astro4",
+            "frame": {
+                "w": 40,
+                "h": 40,
+                "x": 44,
+                "y": 44
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

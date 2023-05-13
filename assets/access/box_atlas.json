@@ -1,0 +1,34 @@
+{
+    "frames": [
+        {
+            "filename": "box",
+            "frame": {
+                "w": 25,
+                "h": 15,
+                "x": 4,
+                "y": 4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "box_cat",
+            "frame": {
+                "w": 25,
+                "h": 19,
+                "x": 4,
+                "y": 23
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

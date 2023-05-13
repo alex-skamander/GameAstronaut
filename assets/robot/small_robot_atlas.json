@@ -1,0 +1,112 @@
+{
+    "frames": [
+        {
+            "filename": "small_robot_01",
+            "frame": {
+                "w": 23,
+                "h": 12,
+                "x": 1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "small_robot_02",
+            "frame": {
+                "w": 23,
+                "h": 12,
+                "x": 1,
+                "y": 14
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "small_robot_04",
+            "frame": {
+                "w": 23,
+                "h": 12,
+                "x": 25,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "small_robot_05",
+            "frame": {
+                "w": 23,
+                "h": 12,
+                "x": 25,
+                "y": 14
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "small_robot_06",
+            "frame": {
+                "w": 23,
+                "h": 12,
+                "x": 1,
+                "y": 27
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "small_robot_08",
+            "frame": {
+                "w": 23,
+                "h": 12,
+                "x": 25,
+                "y": 27
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "small_robot_03",
+            "frame": {
+                "w": 22,
+                "h": 12,
+                "x": 1,
+                "y": 40
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "small_robot_07",
+            "frame": {
+                "w": 22,
+                "h": 12,
+                "x": 24,
+                "y": 40
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

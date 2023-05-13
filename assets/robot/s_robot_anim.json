@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "s_robot",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_02"
+                },
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_03"
+                },
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_03"
+                },
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_04"
+                },
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_04"
+                },
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_02"
+                },
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_01"
+                },
+                {
+                    "key": "s_robot",
+                    "frame": "s_robot_01"
+                }
+            ]
+        }
+    ]
+}
