@@ -1,9 +1,5 @@
 import {content, createTextBox, textBox} from '/js/dialog.js';
 import {Alert} from '/js/infoWindow.js';
-
-import {game} from '/js/index.js';
-import align from "phaser3-rex-plugins/plugins/utils/align";
-import timer from "phaser3-rex-plugins/plugins/time/progresses/Timer";
 export var countBox = 0;
 export var width;
 export var height;
