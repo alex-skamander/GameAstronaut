@@ -1,5 +1,6 @@
 import GetValue from "phaser3-rex-plugins/plugins/utils/object/GetValue";
 import config from './index.js';
+import {countBox, width, height} from "./WorldScene.js";
 
 const COLOR_TITLE = 0x5688C2;
 const COLOR_LIGHT = 0xffffff;
@@ -107,10 +108,10 @@ var SetAlertDialog = function (dialog, title, content) {
 
 var AlertDialog;
 export var Alert = function (scene, title, content, x, y) {
-    var width = 1000;
-    var height = 650;
+
     x = width/2;
     y = height/2;
+
     if (!AlertDialog) {
         AlertDialog = CreateAlertDialog(scene)
     }
@@ -122,12 +123,12 @@ export var Alert = function (scene, title, content, x, y) {
 
 
     return AlertDialog
-        .moveFromPromise(1000, undefined, '-=400', 'Cubic')
+        .moveFromPromise(1000, undefined, '-=500', 'Cubic')
         .then(function () {
             return scene.rexUI.waitEvent(AlertDialog, 'button.click');
         })
         .then(function () {
-            return AlertDialog.moveToPromise(1000, undefined, '-=400', 'Back');
+            return AlertDialog.moveToPromise(1000, undefined, '-=500', 'Back');
         })
         .then(function () {
             AlertDialog.setVisible(false);
