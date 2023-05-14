@@ -1,5 +1,3 @@
-import createLabel from "phaser3-rex-plugins/templates/ui/utils/build/CreateLabel";
-import textBox from "phaser3-rex-plugins/templates/ui/textbox/TextBox";
 
 const COLOR_TITLE = 0x5195e8;
 const COLOR_PRIMARY = 0x7AAEEC;
