@@ -1,5 +1,5 @@
-import {content, createTextBox, textBox} from 'js/dialog.js';
-import {Alert} from 'js/infoWindow.js';
+import {content, createTextBox, textBox} from "/js/dialog.js";
+import {Alert} from "/js/infoWindow.js";
 
 export var countBox = 0;
 export var width;
