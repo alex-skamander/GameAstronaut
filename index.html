@@ -25,18 +25,35 @@
         Обещаю, тебе понравится. Жми на кнопку, и мы начнём!
     </div>
 
-    <div id= "modal_sign" class="modal">
-        <form class="box" action="index.html" method="post">
-            <span class="close"><img src="assets/img/free-icon-cross-mark-7782773.png" alt="" width="20"></span>
-            <h1>Войти</h1>
-            <input type="text" name="" placeholder="Логин">
-            <input type="password" name="" placeholder="Пароль">
-            <input type="submit" name="" placeholder="Войти">
-        </form>
+
+        <div class="login-page" id="modal_sign">
+            <div class="register_form" id="register_form">
+                <form action="index.html" method="post">
+                    <span class="close1"><img src="assets/img/free-icon-cross-mark-7782773.png" alt="" width="20"></span>
+                    <h1>Регистрация</h1>
+                    <input type="text" placeholder="Логин"/>
+                    <input type="password" placeholder="Пароль"/>
+                    <input type="email" placeholder="Почта"/>
+                    <button class="button_create">Создать</button>
+                    <div class="message1">Уже есть аккаунт? <a>Войти</a></div>
+                </form>
+            </div>
+            <div class="login_form" id="login_form">
+                <form action="index.html" method="post">
+                    <span class="close2"><img src="assets/img/free-icon-cross-mark-7782773.png" alt="" width="20"></span>
+                    <h1>Войти</h1>
+                    <input type="text" placeholder="Логин"/>
+                    <input type="password" placeholder="Пароль"/>
+                    <button class="button_sign">Войти</button>
+                    <div class="message2">Нет аккаунта? <a>Зарегестрироваться</a></div>
+                </form>
+
+            </div>
+        </div>
         <!--добавить окно регистрации-->
 
     </div>
-</div>
+
 <script src="js/modalWindow.js"></script>
 
 
